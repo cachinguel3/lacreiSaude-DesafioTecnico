@@ -1,5 +1,72 @@
+"use client";
+
+import Link from "next/link";
+
 export default function Rodape() {
     return (
-        <div className="position-absolute bottom-0 w-100">teste aqui</div>
+        <footer className="bg-white border-t border-slate-200">
+            <div className="mx-auto max-w-7xl space-y-6 px-6 py-8">
+                <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+                    <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-10">
+                        <span className="text-lg font-bold text-emerald-900">Lacrei Saúde</span>
+                        <nav className="flex flex-wrap items-center gap-4 text-sm font-medium text-slate-600">
+                            <Link href="/" className="hover:text-emerald-900">
+                                Lacrei Saúde
+                            </Link>
+                            <Link href="/pessoas-profissionais" className="hover:text-emerald-900">
+                                Pessoas Profissionais
+                            </Link>
+                            <Link href="/politica-de-privacidade" className="hover:text-emerald-900">
+                                Política de Privacidade
+                            </Link>
+                            <Link href="/termos-de-uso" className="hover:text-emerald-900">
+                                Termos de Uso
+                            </Link>
+                        </nav>
+                    </div>
+                    <div className="flex flex-wrap items-center gap-3">
+                        <Link
+                            href="#"
+                            aria-label="facebook site externo - abrirá uma nova janela"
+                            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
+                        >
+                            F
+                        </Link>
+                        <Link
+                            href="#"
+                            aria-label="instagram site externo - abrirá uma nova janela"
+                            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
+                        >
+                            I
+                        </Link>
+                        <Link
+                            href="#"
+                            aria-label="linkedin site externo - abrirá uma nova janela"
+                            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
+                        >
+                            in
+                        </Link>
+                        <Link
+                            href="#"
+                            aria-label="e-mail site externo - abrirá uma nova janela"
+                            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
+                        >
+                            @
+                        </Link>
+                    </div>
+                </div>
+                <div className="flex flex-col gap-4 border-t border-slate-200 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+                    <span>CNPJ: 51.285.351/0001-65</span>
+                    <button
+                        type="button"
+                        className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    >
+                        <span className="text-base">↑</span>
+                        Voltar ao topo
+                    </button>
+                </div>
+            </div>
+        </footer>
     );
 }
