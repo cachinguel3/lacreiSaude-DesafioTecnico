@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactCompiler: process.env.NODE_ENV === "production",
+  reactCompiler: false,
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;

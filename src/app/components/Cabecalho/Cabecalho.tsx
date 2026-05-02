@@ -1,15 +1,18 @@
+import Link from "next/link";
 
 export default function Cabecalho() {
     return (
-        <div>
-            <h1 className="text-3xl font-bold mb-4">Lacrei Saúde</h1>
-            <nav>
-                <ul className="flex space-x-4">
-                    <li><a href="#" className="text-blue-500 hover:underline">Home</a></li>
-                    <li><a href="#" className="text-blue-500 hover:underline">Sobre</a></li>
-                    <li><a href="#" className="text-blue-500 hover:underline">Contato</a></li>
-                </ul>
-            </nav>
+        <div className="flex flex-row justify-between items-center p-4 text-color1">
+            <Link href="/">
+                <h1>Lacrei Saúde</h1>
+            </Link>
+            <Link href="/QuemSomos">
+                <h2>Quem Somos</h2>
+            </Link>
+            <Link href="/ajuda">
+                <h2>Ajuda</h2>
+            </Link>
+
         </div>
     );
 }
