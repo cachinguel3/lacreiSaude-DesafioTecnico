@@ -34,7 +34,10 @@ export default function Home() {
          <Botao variant="primary" icon="✓" iconPosition="left" onClick={handleAction}>
             Confirmar Ação
          </Botao>
-         <div aria-live="polite" className="sr-only">
+         <div 
+            aria-live="polite" 
+            className={`fixed bottom-8 right-8 rounded-lg bg-emerald-900 px-6 py-3 font-medium text-white shadow-lg transition-opacity duration-300 ${feedbackMsg ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+         >
             {feedbackMsg}
          </div>
       </main>
