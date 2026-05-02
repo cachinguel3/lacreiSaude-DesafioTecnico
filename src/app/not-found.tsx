@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
     return (
-        <div className="flex flex-1 flex-col items-center justify-center gap-6 p-6 text-center sm:p-16">
+        <main className="flex flex-1 flex-col items-center justify-center gap-6 p-6 text-center sm:p-16">
             <h1 className="text-6xl font-bold text-emerald-900 sm:text-8xl">404</h1>
             <p className="text-lg text-slate-700 sm:text-xl">Ops! A página que você está procurando não existe.</p>
             <Link href="/"
@@ -10,6 +10,6 @@ export default function NotFound() {
             >
                 Voltar para o Início
             </Link>
-        </div>
+        </main>
     );
 }

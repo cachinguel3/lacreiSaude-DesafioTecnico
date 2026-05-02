@@ -12,7 +12,7 @@ export default function QuemSomos() {
                 {/* Espaço reservado para a foto */}
                 <div className="flex-1 w-full relative min-h-[300px] md:min-h-[400px] rounded-2xl bg-emerald-100 border border-emerald-200 shadow-inner flex items-center justify-center overflow-hidden">
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-emerald-800 font-medium text-center p-4">
-                        <span className="text-4xl mb-2">📸</span>
+                        <span className="text-4xl mb-2" aria-hidden="true">📸</span>
                         <p>Imagem Institucional ou da Equipe</p>
                     </div>
                 </div>

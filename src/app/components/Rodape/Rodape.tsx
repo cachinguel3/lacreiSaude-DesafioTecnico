@@ -27,31 +27,39 @@ export default function Rodape() {
                     <div className="flex flex-wrap items-center gap-3">
                         <Link
                             href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="facebook site externo - abrirá uma nova janela"
                             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
                         >
-                            F
+                            <span aria-hidden="true">F</span>
                         </Link>
                         <Link
                             href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="instagram site externo - abrirá uma nova janela"
                             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
                         >
-                            I
+                            <span aria-hidden="true">I</span>
                         </Link>
                         <Link
                             href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="linkedin site externo - abrirá uma nova janela"
                             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
                         >
-                            in
+                            <span aria-hidden="true">in</span>
                         </Link>
                         <Link
                             href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="e-mail site externo - abrirá uma nova janela"
                             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100"
                         >
-                            @
+                            <span aria-hidden="true">@</span>
                         </Link>
                     </div>
                 </div>
@@ -62,7 +70,7 @@ export default function Rodape() {
                         className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
                         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     >
-                        <span className="text-base">↑</span>
+                        <span className="text-base" aria-hidden="true">↑</span>
                         Voltar ao topo
                     </button>
                 </div>

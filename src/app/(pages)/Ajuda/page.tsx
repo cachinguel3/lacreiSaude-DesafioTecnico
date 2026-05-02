@@ -18,7 +18,7 @@ export default function Ajuda() {
                     <details className="group border border-slate-200 rounded-lg p-4 bg-white cursor-pointer focus-within:ring-2 focus-within:ring-emerald-500 outline-none">
                         <summary className="font-semibold text-lg text-emerald-900 flex justify-between items-center outline-none list-none marker:hidden">
                             <span>Como agendar uma consulta?</span>
-                            <span className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
+                            <span aria-hidden="true" className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
                         </summary>
                         <p className="mt-4 text-slate-600 leading-relaxed">Para agendar uma consulta, basta acessar a nossa plataforma, buscar pelo profissional desejado e escolher um horário disponível de acordo com as suas necessidades.</p>
                     </details>
@@ -26,7 +26,7 @@ export default function Ajuda() {
                     <details className="group border border-slate-200 rounded-lg p-4 bg-white cursor-pointer focus-within:ring-2 focus-within:ring-emerald-500 outline-none">
                         <summary className="font-semibold text-lg text-emerald-900 flex justify-between items-center outline-none list-none marker:hidden">
                             <span>O serviço da Lacrei Saúde é gratuito?</span>
-                            <span className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
+                            <span aria-hidden="true" className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
                         </summary>
                         <p className="mt-4 text-slate-600 leading-relaxed">A busca e visualização de profissionais pela plataforma é totalmente gratuita. O valor da consulta e o método de pagamento são definidos diretamente por cada profissional.</p>
                     </details>
@@ -34,7 +34,7 @@ export default function Ajuda() {
                     <details className="group border border-slate-200 rounded-lg p-4 bg-white cursor-pointer focus-within:ring-2 focus-within:ring-emerald-500 outline-none">
                         <summary className="font-semibold text-lg text-emerald-900 flex justify-between items-center outline-none list-none marker:hidden">
                             <span>Como posso me cadastrar como profissional?</span>
-                            <span className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
+                            <span aria-hidden="true" className="group-open:rotate-180 transition-transform duration-200 text-emerald-600">↓</span>
                         </summary>
                         <p className="mt-4 text-slate-600 leading-relaxed">Se você é um profissional da saúde e deseja fazer parte da nossa rede, clique no botão &quot;Entrar&quot; no cabeçalho e siga o passo a passo para o cadastro.</p>
                     </details>
