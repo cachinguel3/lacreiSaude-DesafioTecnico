@@ -34,7 +34,7 @@ export default function Ajuda() {
                             <span>Como posso me cadastrar como profissional?</span>
                             <span className="group-open:rotate-180 transition-transform duration-200">↓</span>
                         </summary>
-                        <p className="mt-4 text-slate-600 leading-relaxed">Se você é um profissional da saúde e deseja fazer parte da nossa rede, clique no botão "Entrar" no cabeçalho e siga o passo a passo para o cadastro de profissionais da saúde.</p>
+                        <p className="mt-4 text-slate-600 leading-relaxed">Se você é um profissional da saúde e deseja fazer parte da nossa rede, clique no botão &quot;Entrar&quot; no cabeçalho e siga o passo a passo para o cadastro de profissionais da saúde.</p>
                     </details>
                 </div>
 
