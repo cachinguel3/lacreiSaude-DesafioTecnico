@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Cabecalho from "./components/Cabecalho/Cabecalho";
 import Rodape from "./components/Rodape/Rodape";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lacrei Saúde",
@@ -15,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="font-sans flex min-h-screen flex-col">
+      <body className={`${inter.className} flex min-h-screen flex-col antialiased text-slate-900 bg-white`}>
         <Cabecalho />
         {children}
         <Rodape />
