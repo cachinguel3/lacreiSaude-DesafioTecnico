@@ -4,11 +4,11 @@ Este repositório contém a solução para o desafio técnico da Lacrei Saúde, 
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Next.js 14+ (App Router)**: Framework React com foco em Server Components.
-- **React 18**: Biblioteca de construção de interfaces de usuário.
-- **Tailwind CSS**: Estilização utilitária e desenvolvimento ágil com foco em *Mobile-First*.
+- **Next.js (v16.2.4)**: Framework React (App Router) com foco em Server Components.
+- **React (v19.2.4)**: Biblioteca de construção de interfaces de usuário.
+- **Tailwind CSS (v4)**: Estilização utilitária e desenvolvimento ágil com foco em *Mobile-First*.
 - **TypeScript**: Tipagem estática para maior segurança e previsibilidade do código.
-- **Jest & React Testing Library**: Para testes unitários de componentes e interatividade.
+- **Jest (v30.3.0) & React Testing Library**: Para testes unitários de componentes e interatividade.
 
 ---
 
