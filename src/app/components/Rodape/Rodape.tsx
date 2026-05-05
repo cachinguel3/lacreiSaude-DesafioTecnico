@@ -1,6 +1,5 @@
-"use client";
-
 import Link from "next/link";
+import BotaoVoltarAoTopo from "../BotaoVoltarAoTopo/BotaoVoltarAoTopo";
 
 export default function Rodape() {
     return (
@@ -65,14 +64,7 @@ export default function Rodape() {
                 </div>
                 <div className="flex flex-col gap-4 border-t border-slate-200 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
                     <span>CNPJ: 51.285.351/0001-65</span>
-                    <button
-                        type="button"
-                        className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                    >
-                        <span className="text-base" aria-hidden="true">↑</span>
-                        Voltar ao topo
-                    </button>
+                    <BotaoVoltarAoTopo />
                 </div>
             </div>
         </footer>
